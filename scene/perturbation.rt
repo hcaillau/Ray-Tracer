@@ -1,0 +1,105 @@
+#Badass scene
+
+canvas
+{
+	width = 1024
+	height = 768
+	background = 200 200 200
+}
+
+camera
+{
+	origin = 0.0 40.0 -100.0
+	ang = -10.0 0.0 0.0
+	fov = 70
+}
+
+light_ambient
+{
+	intensity = 0.1 0.1 0.1
+}
+
+light_point
+{
+	pos = -40.0 50.0 30.0
+	intensity = 0.8 0.8 0.2
+}
+
+light_par
+{
+	dir = 0.0 -10.0 10.0
+	intensity = 0.8 0.8 0.8
+}
+
+plane
+{
+	pos = 0.0 0.0 0.0
+	rot = -20.0 0.0 0.0
+	color = 135 170 204
+	phong = 0 0.95 0.00
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 5
+	limited = 0 0.0 0.0 0.0 0.0 0.0 0.0
+}
+
+sphere
+{
+	pos = -50.0 40.0 0.0
+	radius = 10.0
+	color = 80 147 170
+	phong = 12 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 3
+	rot = 0.0 0.0 0.0
+	texture = 1 0.0 0.0 0.0 0.0
+	limited = 0 0.0 0.0 0.0 0.0 0.0 0.0
+}
+
+sphere
+{
+	pos = 0.0 12.0 0.0
+	radius = 10.0
+	color = 80 147 170
+	phong = 12 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 6
+	rot = 0.0 0.0 0.0
+	texture = 1 0.0 0.0 0.0 0.0
+	limited = 0 0.0 0.0 0.0 0.0 0.0 0.0
+}
+
+sphere
+{
+	pos = 0.0 55.0 60.0
+	radius = 30.0
+	color = 255 255 255
+	phong = 12 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 1.33333
+	perturbation = 2
+	rot = 0.0 0.0 0.0
+	texture = 0 0.0 0.0 0.0 0.0
+	limited = 0 0.0 0.0 0.0 0.0 0.0 0.0
+}
+
+sphere
+{
+	pos = 40.0 30.0 -10.0
+	radius = 10.0
+	color = 93 112 90
+	phong = 12 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 1.33333
+	perturbation = 1
+	rot = 0.0 0.0 0.0
+	texture = 0 0.0 0.0 0.0 0.0
+	limited = 0 0.0 0.0 0.0 0.0 0.0 0.0
+}

@@ -1,2 +1,2 @@
-# Ray-Tracer
-Projet graphique de l'école 42
+# Ray Tracer
+Projet graphique en C de l'école 42

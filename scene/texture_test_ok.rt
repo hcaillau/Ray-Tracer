@@ -1,0 +1,40 @@
+
+canvas
+{
+	width = 1024
+	height = 768
+	background = 5 5 15
+}
+
+camera
+{
+	origin = -100.0 0.0 -600.0
+	ang = 0.0 10.0 0.0
+	fov = 60
+}
+
+light_ambient
+{
+	intensity = 0.1 0.1 0.1
+}
+
+light_point
+{
+	pos = 0.0 0.0 0.0
+	intensity = 2.0 2.0 2.0
+}
+
+sphere
+{
+	pos = 500.0 0.0 0.0
+	radius = 200.0
+	color = 254 70 70
+	phong = 5 0.80 0.20
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 90.0 0.0 50.0
+	limited = 0 0.0 10.0 5.0 0.0 -20.0 0.0
+	texture = 1 0.0 0.0 0.0 0.0
+}

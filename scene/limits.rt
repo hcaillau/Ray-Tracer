@@ -1,0 +1,123 @@
+
+canvas
+{
+	width = 1000
+	height = 1000
+	background = 200 200 200
+}
+
+camera
+{
+	origin = 0.0 40.0 -300.0
+	ang = 8.0 0.0 0.0
+	fov = 65
+}
+
+light_ambient
+{
+	intensity = 0.2 0.2 0.2
+}
+
+light_point
+{
+	pos = 0.0 300.0 0.0
+	intensity = 0.5 0.5 0.5
+}
+
+light_point
+{
+	pos = 60.0 300.0 0.0
+	intensity = 0.5 0.5 0.5
+}
+
+light_point
+{
+	pos = -60.0 300.0 0.0
+	intensity = 0.5 0.5 0.5
+}
+
+plane
+{
+	pos = 0.0 0.0 30.0
+	rot = 45.0 0.0 0.0
+	color = 135 170 204
+	phong = 0 0.95 0.00
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	limited = 1 -100.0 100.0 -1.0 1.0 -100.0 100.0
+}
+
+cylinder
+{
+	pos = -80.0 10.0 10.0
+	radius = 9.0
+	color = 199 147 116
+	phong = 12 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = -45.0 0.0 0.0
+	limited = 1 -1000.0 1000.0 -200.0 200.0 0.0 60.0
+}
+
+cylinder
+{
+	pos = 120.0 5.0 10.0
+	radius = 9.0
+	color = 199 147 116
+	phong = 12 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 0.0 0.0 0.0
+	limited = 1 -500.0 500.0 0.0 200.0 -200.0 200.0
+}
+
+
+sphere
+{
+	pos = 0.0 75.0 60.0
+	radius = 30.0
+	color = 255 255 255
+	phong = 12 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 0.0 0.0 0.0
+	texture = 0 0.0 0.0 0.0 0.0
+	limited = 1 -60.0 15.0 -5.0 50.0 -15.0 15.0
+}
+
+sphere
+{
+	pos = -200.0 200.0 200.0
+	radius = 50.0
+	color = 255 112 90
+	phong = 12 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 0.0 0.0 0.0
+	texture = 0 0.0 0.0 0.0 0.0
+	limited = 2 -315.0 0.0 175.0 225.0 175.0 225.0
+}
+
+cone
+{
+	pos = 0.0 600.0 600.0
+	radius = 0.05
+	color = 199 147 116
+	phong = 12 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 0.0 0.0 90.0
+	limited = 2 -300.0 300.0 -100000.0 100000.0 550.0 10000000.0
+}

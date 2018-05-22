@@ -1,0 +1,112 @@
+
+canvas
+{
+	width = 1024
+	height = 768
+	background = 200 200 200
+}
+
+camera
+{
+	origin = 0.0 50.0 -100.0
+	ang = -8.0 0.0 0.0
+	fov = 70
+}
+
+light_ambient
+{
+	intensity = 0.1 0.1 0.1
+}
+
+light_par
+{
+	dir = 0.0 -10.0 10.0
+	intensity = 0.2 0.7 0.8
+}
+
+sphere
+{
+	pos = -50.0 50.0 0.0
+	radius = 20.0
+	color = 80 147 170
+	phong = 12 0.40 0.60
+	reflexion = 0.4
+	transparency = 0.0
+	refraction = 1.531
+	perturbation = 0
+	rot = 0.0 0.0 0.0
+	texture = 0 0.0 0.0 0.0 0.0
+	limited = 0 0.0 0.0 0.0 0.0 0.0 0.0
+}
+
+sphere
+{
+	pos = 50.0 50.0 0.0
+	radius = 20.0
+	color = 80 147 170
+	phong = 12 0.40 0.60
+	reflexion = 0.4
+	transparency = 0.5
+	refraction = 2.4175
+	perturbation = 0
+	rot = 0.0 0.0 0.0
+	texture = 0 0.0 0.0 0.0 0.0
+	limited = 0 0.0 0.0 0.0 0.0 0.0 0.0
+}
+
+plane
+{
+	pos = 0.0 0.0 50.0
+	rot = 90.0 0.0 0.0
+	color = 207 87 0
+	phong = 0 0.95 0.00
+	reflexion = 0.3
+	transparency = 0.0
+	refraction = 1.333333
+	perturbation = 0
+	limited = 0 0.0 0.0 0.0 0.0 0.0 0.0
+}
+
+
+paraboloid
+{
+	pos = 0.0 10.0 0.0
+	radius = 9.0
+	color = 80 147 170
+	phong = 12 0.40 0.60
+	reflexion = 0.5
+	transparency = 0.0
+	refraction = 1.30
+	perturbation = 0
+	rot = 0.0 0.0 0.0
+	limited = 0 0.0 0.0 0.0 0.0 0.0 0.0
+}
+
+sphere
+{
+	pos = 0.0 -25.0 0.0
+	radius = 20.0
+	color = 80 147 170
+	phong = 12 0.40 0.60
+	reflexion = 0.4
+	transparency = 0.0
+	refraction = 1.31
+	perturbation = 0
+	rot = 0.0 0.0 0.0
+	texture = 0 0.0 0.0 0.0 0.0
+	limited = 0 0.0 0.0 0.0 0.0 0.0 0.0
+}
+
+hyperboloid
+{
+	pos = 0.0 0.0 0.0
+	radius = 0.05
+	color = 255 179 83
+	phong = 12 0.40 0.60
+	reflexion = 0.5
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 0.0 0.0 90.0
+	limited = 1 -50.0 50.0 -100.0 100.0 -1000.0 1000.0
+}

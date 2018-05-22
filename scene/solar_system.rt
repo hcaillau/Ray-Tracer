@@ -1,0 +1,289 @@
+
+canvas
+{
+	width = 800
+	height = 600
+	background = 200 200 200
+}
+
+camera
+{
+	origin = 0.0 0.0 -1500.0
+	ang = -8.0 0.0 0.0
+	fov = 70
+}
+
+light_ambient
+{
+	intensity = 0.1 0.1 0.1
+}
+
+light_point
+{
+	pos = 0.0 0.0 -1000.0
+	intensity = 0.9 0.9 0.9
+}
+
+light_point
+{
+	pos = 1000.0 0.0 -1000.0
+	intensity = 0.9 0.9 0.9
+}
+
+light_point
+{
+	pos = 2000.0 0.0 -1000.0
+	intensity = 0.9 0.9 0.9
+}
+
+light_point
+{
+	pos = 3000.0 0.0 -1000.0
+	intensity = 0.9 0.9 0.9
+}
+
+light_point
+{
+	pos = 4000.0 0.0 -1000.0
+	intensity = 0.9 0.9 0.9
+}
+
+sphere
+{
+	pos = 0.0 0.0 0.0
+	radius = 500.0
+	color = 254 70 70
+	phong = 12 0.30 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 0.0 0.0 0.0
+	limited = 0 -50.0 50.0 -10.0 10.0 -50.0 50.0
+	texture = 1 0.0 0.0 0.0 0.0
+}
+
+sphere
+{
+	pos = 530.0 0.0 -30.0
+	radius = 5.0
+	color = 254 70 70
+	phong = 0 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 0.0 0.0 0.0
+	limited = 0 -50.0 50.0 -10.0 10.0 -50.0 50.0
+	texture = 2 0.0 0.0 0.0 0.0
+}
+
+sphere
+{
+	pos = 560.0 0.0 50.0
+	radius = 12.0
+	color = 254 70 70
+	phong = 0 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 0.0 0.0 0.0
+	limited = 0 -50.0 50.0 -10.0 10.0 -50.0 50.0
+	texture = 3 0.0 0.0 0.0 0.0
+}
+
+sphere
+{
+	pos = 590.0 0.0 -80.0
+	radius = 13.0
+	color = 255 255 0
+	phong = 0 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 0.0 0.0 0.0
+	limited = 0 -50.0 50.0 -10.0 10.0 -50.0 50.0
+	texture = 4 0.0 0.0 0.0 0.0
+}
+
+sphere
+{
+	pos = 640.0 0.0 100.0
+	radius = 7.0
+	color = 254 70 70
+	phong = 0 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 0.0 0.0 0.0
+	limited = 0 -50.0 50.0 -10.0 10.0 -50.0 50.0
+	texture = 5 0.0 0.0 0.0 0.0
+}
+
+sphere
+{
+	pos = 1100.0 0.0 -200.0
+	radius = 140.0
+	color = 254 70 70
+	phong = 0 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 0.0 0.0 0.0
+	limited = 0 -50.0 50.0 -10.0 10.0 -50.0 50.0
+	texture = 6 0.0 0.0 0.0 0.0
+}
+
+sphere
+{
+	pos = 2300.0 0.0 300.0
+	radius = 100.0
+	color = 254 70 70
+	phong = 0 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 0.0 0.0 0.0
+	limited = 0 -50.0 50.0 -10.0 10.0 -50.0 50.0
+	texture = 7 0.0 0.0 0.0 0.0
+}
+
+ring
+{
+	pos = 2300.0 0.0 300.0
+	radius = 110.0
+	side = 30.0
+	color = 254 70 70
+	phong = 12 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 0.0 0.0 0.0
+	limited = 0 -50.0 50.0 -10.0 10.0 -50.0 50.0
+}
+
+ring
+{
+	pos = 2300.0 0.0 300.0
+	radius = 130.0
+	side = 30.0
+	color = 254 70 70
+	phong = 12 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 2.0 0.0 0.0
+	limited = 0 -50.0 50.0 -10.0 10.0 -50.0 50.0
+}
+
+ring
+{
+	pos = 2300.0 0.0 300.0
+	radius = 150.0
+	side = 30.0
+	color = 254 70 70
+	phong = 12 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = -2.0 0.0 0.0
+	limited = 0 -50.0 50.0 -10.0 10.0 -50.0 50.0
+}
+
+ring
+{
+	pos = 2300.0 0.0 300.0
+	radius = 180.0
+	side = 30.0
+	color = 254 70 70
+	phong = 12 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = -3.0 0.0 0.0
+	limited = 0 -50.0 50.0 -10.0 10.0 -50.0 50.0
+}
+
+ring
+{
+	pos = 2300.0 0.0 300.0
+	radius = 210.0
+	side = 30.0
+	color = 254 70 70
+	phong = 12 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 2.0 0.0 0.0
+	limited = 0 -50.0 50.0 -10.0 10.0 -50.0 50.0
+}
+
+sphere
+{
+	pos = 3500.0 0.0 -350.0
+	radius = 50.0
+	color = 254 70 70
+	phong = 0 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 0.0 0.0 0.0
+	limited = 0 -50.0 50.0 -10.0 10.0 -50.0 50.0
+	texture = 8 0.0 0.0 0.0 0.0
+}
+
+sphere
+{
+	pos = 4200.0 0.0 400.0
+	radius = 50.0
+	color = 254 70 70
+	phong = 0 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 0.0 0.0 0.0
+	limited = 0 -50.0 50.0 -10.0 10.0 -50.0 50.0
+	texture = 9 0.0 0.0 0.0 0.0
+}
+
+sphere
+{
+	pos = 5000.0 0.0 -400.0
+	radius = 23.0
+	color = 254 70 70
+	phong = 0 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 0.0 0.0 0.0
+	limited = 0 -50.0 50.0 -10.0 10.0 -50.0 50.0
+	texture = 0 0.0 0.0 0.0 0.0
+}
+
+sphere
+{
+	pos = 0.0 0.0 0.0
+	radius = 100000.0
+	color = 254 70 70
+	phong = 0 0.40 0.60
+	reflexion = 0.0
+	transparency = 0.0
+	refraction = 0.0
+	perturbation = 0
+	rot = 0.0 0.0 0.0
+	limited = 0 -50.0 50.0 -10.0 10.0 -50.0 50.0
+	texture = 10 0.0 0.0 0.0 0.0
+}
